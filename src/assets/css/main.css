@@ -1,4 +1,3 @@
-
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400"); */
 *,
 ::after,
@@ -110,15 +109,15 @@ h5 {
 }
 
 h1 {
-  font-size: 3.052rem;
+  font-size: 2.4rem;
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -257,9 +256,7 @@ button.block {
   max-width: var(--max-width);
   margin: 0 auto;
 }
-.page {
-  min-height: calc(100vh - (6rem + 4rem));
-}
+
 
 .title {
   text-align: center;
@@ -342,14 +339,10 @@ form > *:last-child {
   justify-content: center;
 }
 .nav-center {
-  width: 98vw;
+  width: 95vw;
   max-width: var(--max-width);
 }
-.logo {
-  
-}
 .nav-header {
-  height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -373,13 +366,13 @@ form > *:last-child {
   transition: var(--transition);
 }
 .show-links {
-  height: 23.9375rem;
+  height: 25rem;
 }
 
 .nav-link {
   display: block;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   color: var(--grey-1000);
   letter-spacing: var(--letterSpacing);
@@ -399,11 +392,6 @@ form > *:last-child {
 }
 
 @media screen and (min-width: 992px) {
-  .navbar {
-    height: 6rem;
-    
-  }
-
   .nav-center {
     display: flex;
     align-items: center;
@@ -411,8 +399,7 @@ form > *:last-child {
   .nav-header {
     padding: 0;
     margin-right: 0.8rem;
-    height: auto;
-   width: 30%;
+    width: 30%;
   }
 
   .nav-btn {
@@ -422,8 +409,7 @@ form > *:last-child {
     height: auto !important;
     flex-direction: row;
     align-items: center;
-    width:69%;
-  
+    width: 69%;
   }
   .nav-link {
     padding: 0;

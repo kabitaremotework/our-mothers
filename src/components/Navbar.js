@@ -58,7 +58,7 @@ const Navbar = () => {
           
           <div className="nav-link contact-link">
             <Link to="/contact" className="btn" onClick={() => setShow(false)}>
-              Donate
+              Donate Now
             </Link>
           </div>
         </div>
